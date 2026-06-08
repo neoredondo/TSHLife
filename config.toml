@@ -1,54 +1,54 @@
 baseURL = "https://你的github使用者名稱.github.io/"
-  languageCode = "en-us"
-  title = "Culinary Artistry Consultancy"
-  theme = "ananke"
+languageCode = "en-us"
+title = "Culinary Artistry Consultancy"
+theme = "ananke"
 
-  [params]
-    author = "你的姓名"
-    description = "Restaurant Consultant | Beverage R&D | Food Plating Artistry"
-    keywords = ["Restaurant Consultant", "Beverage Development", "Food Plating", "Dessert Presentation"]
+[params]
+  author = "你的姓名"
+  description = "Restaurant Consultant | Beverage R&D | Food Plating Artistry"
+  keywords = ["Restaurant Consultant", "Beverage Development", "Food Plating", "Dessert Presentation"]
 
-    ShowReadingTime = true
-    ShowShareButtons = true
-    ShowPostNavLinks = true
-    ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
 
-    customCSS = ["/css/custom.css"]
+  customCSS = ["/css/custom.css"]
 
-    [params.profileMode]
-      enabled = true
-      title = "Culinary Artistry Consultancy"
-      subtitle = "Innovating Beverage Concepts & Elevating Food Presentation"
-      imageUrl = "#"
-      imageTitle = "Your portrait or logo"
-      imageWidth = 120
-      imageHeight = 120
-      buttons = [
-        { name = "Portfolio", url = "/portfolio/" }
-      ]
+  [params.profileMode]
+    enabled = true
+    title = "Culinary Artistry Consultancy"
+    subtitle = "Innovating Beverage Concepts & Elevating Food Presentation"
+    imageUrl = "#"
+    imageTitle = "Your portrait or logo"
+    imageWidth = 120
+    imageHeight = 120
+    buttons = [
+      { name = "Portfolio", url = "/portfolio/" }
+    ]
 
-  [menu]
-    [[menu.main]]
-      identifier = "home"
-      name = "Home"
-      url = "/"
-      weight = 1
-    [[menu.main]]
-      identifier = "portfolio"
-      name = "Portfolio"
-      url = "/portfolio/"
-      weight = 2
-    [[menu.main]]
-      identifier = "about"
-      name = "About"
-      url = "/about/"
-      weight = 3
-    [[menu.main]]
-      identifier = "contact"
-      name = "Contact"
-      url = "/contact/"
-      weight = 4
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
 
-  [markup]
-    [markup.goldmark.renderer]
-      unsafe =
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
